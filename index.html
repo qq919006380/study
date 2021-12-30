@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="text">hello</h1>
+    <button class="btn">变圆</button>
+  </body>
+  <style>
+    .active {
+      color: pink;
+      width: 120px;
+      height: 120px;
+      background: powderblue;
+      border-radius: 50%;
+    }
+  </style>
+  <script>
+    let btn = document.querySelector(".btn");
+    let text = document.querySelector(".text");
+    let flag = true;
+    btn.addEventListener("click", function () {
+      if (flag) {
+        text.classList.add("active");
+        
+        text.classList.toggle("")
+
+        flag = false;
+      } else {
+       
+        text.classList.remove("active");
+        flag = true;
+      }
+    });
+  </script>
+</html>
