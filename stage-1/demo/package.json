@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "我是描述",
+  "scripts": {
+    "dev": "parcel watch index.html --port 8080",
+    "build":"npx parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "is-odd-num": "^1.0.1",
+    "sass": "^1.45.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "http-server": "^14.0.0",
+    "parcel": "^2.0.1"
+  }
+}
