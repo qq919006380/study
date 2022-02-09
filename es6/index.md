@@ -1,0 +1,52 @@
+## es6数组测试
+```js
+var arr=[1,2,'aaa',34,21,'str']
+//  1、声明一个变量，返回arr数组中的aaa
+//  2、声明一个变量，返回一个数组给arr数组内的每一项添加字符串'$'符号
+//  3、声明一个变量，返回一个数组arr中的字符串
+//  4、声明一个变量，放回布尔值，如果arr数组中存在字符串则放回true否则放回false
+//  5、声明一个变量，放回布尔值，如果arr数组中所有值都是字符串则放回true否则放回false
+```
+
+
+```js
+// 1、声明一个变量，返回list中的项，并且去掉重复的
+// 2、声明一个变量，返回list中重复的项
+var list=[
+    {name:"aaa",age:13},
+    {name:"bbb",age:15},
+    {name:"ccc",age:17},
+    {name:"ddd",age:22},
+    {name:"bbb",age:15},
+    {name:"aaa",age:13},
+    {name:"bbb",age:16},
+]
+```
+
+```js
+// 1、声明一个变量，返回arr1和arr2中重复的项
+var arr1=[
+    {name:"aaa",age:13},
+    {name:"bbb",age:15},
+    {name:"ccc",age:17},
+    {name:"ddd",age:22},
+    {name:"bbb",age:15},
+    {name:"aaa",age:13},
+    {name:"bbb",age:16},
+]
+var arr2=[
+    {name:"aaa",age:13},
+    {name:"bbb",age:15},
+    {name:"ccc",age:17},
+    {name:"ddd",age:22},
+    {name:"bbb",age:15},
+    {name:"aaa",age:13},
+    {name:"bbb",age:16},
+]
+```
+## 解答题
+- 说明数组中map和forEach的区别？
+- 数组的find中，如果有两个以上条件满足，泽返回？
+- 解析说明js的深拷贝和浅拷贝的区别
+- 数组的浅拷贝方法有
+- 对象的浅拷贝方法有
