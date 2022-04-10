@@ -78,3 +78,4 @@ let colorValue=getColor()
 add(1)(2) //3
 add(1)(4) //5
 ```
+
