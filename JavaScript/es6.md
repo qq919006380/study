@@ -24,30 +24,6 @@ var list=[
 ]
 ```
 
-```js
-// 1、声明一个变量，返回arr1和arr2中重复的项
-var arr1=[
-    {name:"aaa",age:13},
-    {name:"bbb",age:15},
-    {name:"ccc",age:17},
-    {name:"ddd",age:22},
-    {name:"bbb",age:15},
-    {name:"aaa",age:13},
-    {name:"bbb",age:16},
-]
-var arr2=[
-    {name:"aaa",age:13},
-    {name:"bbb",age:15},
-    {name:"ccc",age:17},
-    {name:"ddd",age:22},
-    {name:"bbb",age:15},
-    {name:"aaa",age:13},
-    {name:"bbb",age:16},
-]
-```
-
-
-
 ## 解答题：解答以下问题并举例说明.
 - 说明数组中map和forEach的区别？
 - 数组的find中，如果有两个以上条件满足，泽返回？

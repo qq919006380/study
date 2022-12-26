@@ -1,37 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+       
+    <meta charset="UTF-8" />
+       
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
     <title>Document</title>
+       
   </head>
   <body>
-    <h1 class="text">hello</h1>
-    <button class="btn">变圆</button>
-  </body>
-  <style>
-    .active {
-      color: pink;
-      width: 120px;
-      height: 120px;
-      background: powderblue;
-      border-radius: 50%;
-    }
-  </style>
-  <script>
-    let btn = document.querySelector(".btn");
-    let text = document.querySelector(".text");
-    let flag = true;
-    btn.addEventListener("click", function () {
-      if (flag) {
-        text.classList.add("active");
-        
-        text.classList.toggle("")
-
-        flag = false;
-      } else {
-       
-        text.classList.remove("active");
-        flag = true;
+       
+    <div>
+             
+      <ul class="listColor">
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+                   
+        <li>list</li>
+               
+      </ul>
+         
+    </div>
+       
+    <script>
+      flag = 0;
+      var ul = document.querySelector(".listColor");
+      var lis = ul.children;
+      ul.addEventListener("click", fn);
+      function fn(e) {
+        if (flag === 0) {
+          e.target.style.backgroundColor = "#00f";
+          flag = 1;
+        } else {
+          e.target.style.backgroundColor = "#fff";
+          flag = 0;
+        }
       }
-    });
-  </script>
+    </script>
+  </body>
 </html>
